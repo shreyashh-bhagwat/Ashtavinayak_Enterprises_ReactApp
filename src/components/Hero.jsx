@@ -23,7 +23,7 @@ export default function Hero() {
         <div
           className="hero-slide active"
           style={{
-            backgroundImage: `linear-gradient(135deg, rgba(0, 20, 10, 0.6) 0%, rgba(0, 40, 20, 0.5) 50%, rgba(0, 60, 30, 0.4) 100%), url(${heroContent.background})`
+            backgroundImage: `linear-gradient(135deg, rgba(17, 18, 18, 0.6) 0%, rgba(21, 23, 22, 0.5) 50%, rgba(17, 18, 18, 0.4) 100%), url(${heroContent.background})`
           }}
         >
           <div className="slide-content container">

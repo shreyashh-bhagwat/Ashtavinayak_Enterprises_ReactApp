@@ -4,7 +4,7 @@
   height: 120vh;
   min-height: 600px;
   overflow: hidden;
-  margin-top: -10px; /* Account for fixed navbar */
+  margin-top: -70px; /* Account for fixed navbar height */
 }
 
 .hero-content {
@@ -38,7 +38,7 @@
   color: white;
   max-width: 900px;
   z-index: 2;
-  margin-top: -140px;
+  margin-top: 0;
   animation: slideUp 1s ease-out;
   padding: 0 20px;
 }
@@ -117,9 +117,9 @@
 }
 
 .slide-cta.btn-primary {
-  background: linear-gradient(135deg, #2E8B57 0%, #32CD32 50%, #228B22 100%);
+  background: var(--primary-color);
   color: white;
-  box-shadow: 0 8px 25px rgba(46, 139, 87, 0.4);
+  
   border: 2px solid transparent;
 }
 
