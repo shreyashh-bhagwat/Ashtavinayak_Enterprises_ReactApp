@@ -261,15 +261,22 @@ export default function Contact() {
       </div>
 
       {submitStatus && (
-        <div className={`toast ${submitStatus.type}`}>
-          <div className="toast-content">
-            <span className="toast-message">{submitStatus.message}</span>
-            <button 
-              className="toast-close"
-              onClick={() => setSubmitStatus(null)}
-            >
-              ×
-            </button>
+        <div className="modal-overlay" onClick={() => setSubmitStatus(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className={`modal-header ${submitStatus.type}`}>
+              <h3>{submitStatus.type === 'success' ? 'Message Sent!' : 'Error'}</h3>
+            </div>
+            <div className="modal-body">
+              <p>{submitStatus.message}</p>
+            </div>
+            <div className="modal-footer">
+              <button 
+                className="btn btn-primary"
+                onClick={() => setSubmitStatus(null)}
+              >
+                OK
+              </button>
+            </div>
           </div>
         </div>
       )}
