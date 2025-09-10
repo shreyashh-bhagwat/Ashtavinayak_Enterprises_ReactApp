@@ -1,10 +1,11 @@
 import './Hero.css';
+import bgImage from '../assets/bg.png';
 
 const heroContent = {
   title: "Ashtavinayak Enterprises",
   subtitle: "Eco-friendly Paper & Cardboard Solutions for a Sustainable Future",
   description: "Reliable supplier of premium-grade paper, cardboard, and packaging materials across India.",
-  background: "/src/assets/bg.png",
+  background: bgImage,
   cta1: "Explore Products",
   cta2: "Get a Quote"
 };
