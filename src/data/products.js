@@ -1,6 +1,6 @@
 import foodGrade from '../assets/food grade.png';
 import carryBag from '../assets/carrybag and envelop.png';
-import mgPaper from '../assets/mg paper bg.png';
+import mgPaper from '../assets/kraft rolls.png';
 import duplexPaper from '../assets/duplex paper.png';
 import craftPaper from '../assets/craft paper.png';
 import recycled from '../assets/recycled.png';
@@ -36,13 +36,13 @@ export const products = [
   },
   {
     id: 3,
-    name: "MG Paper Bags",
+    name: "Kraft paper rolls and sheets",
     category: "Bags",
     image: mgPaper,
-    short: "35/40 BF, 18–35 GSM paper bags for various applications.",
+    short: "16-35 BF, 100–350 GSM paper bags for various applications.",
     specs: [
-      "35/40 BF strength",
-      "18-35 GSM options",
+      "16-35 BF BF strength",
+      "100-350 GSM options",
       "Multiple sizes available",
       "Custom branding",
       "Recyclable material"
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Kraft Liner & Semi-Chemical Paper",
+    name: "Test Liner & Semi-Chemical Paper",
     category: "Paper",
     image: craftPaper,
     short: "Strong, versatile, eco-friendly kraft liner and semi-chemical paper.",
