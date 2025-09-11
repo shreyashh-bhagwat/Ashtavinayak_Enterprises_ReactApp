@@ -181,6 +181,13 @@
   transform: translateX(4px);
 }
 
+.whatsapp-message-btn.selected {
+  background: #25D366;
+  color: white;
+  border-color: #25D366;
+  transform: translateX(4px);
+}
+
 .whatsapp-message-btn:last-child {
   margin-bottom: 0;
 }
