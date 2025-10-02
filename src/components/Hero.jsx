@@ -3,8 +3,8 @@ import bgImage from '../assets/bg.png';
 
 const heroContent = {
   title: "Ashtavinayak Enterprises",
-  subtitle: "Eco-friendly Paper & Cardboard Solutions for a Sustainable Future",
-  description: "Reliable supplier of premium-grade paper, cardboard, and packaging materials across India.",
+  subtitle: "Premium Paper & Packaging Suppliers in India | Eco-Friendly Solutions Since 2013",
+  description: "Leading suppliers of kraft paper, duplex sheets, food-grade packaging, and sustainable cardboard materials. Trusted by 500+ businesses across India with 98% on-time delivery.",
   background: bgImage,
   cta1: "Explore Products",
   cta2: "Get a Quote"

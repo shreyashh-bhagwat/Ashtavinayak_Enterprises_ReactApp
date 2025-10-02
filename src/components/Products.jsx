@@ -7,7 +7,9 @@ function ProductCard({ product, onEnquire }) {
       <div className="product-image">
         <img 
           src={product.image} 
-          alt={product.name}
+          alt={`${product.name} - Premium quality ${product.category.toLowerCase()} supplied by Ashtavinayak Enterprises India`}
+          title={`${product.name} - ${product.short}`}
+          loading="lazy"
           onError={(e) => {
             e.target.src = `https://via.placeholder.com/300x200/2F7A3E/ffffff?text=${encodeURIComponent(product.name)}`;
           }}
@@ -64,8 +66,8 @@ export default function Products() {
     <section id="products" className="products-section">
       <div className="container">
         <div className="section-header text-center">
-          <h2>Our Products</h2>
-          <p>High-Quality Paper & Cardboard Solutions</p>
+          <h2>Premium Paper & Packaging Products - Ashtavinayak Enterprises</h2>
+          <p>High-Quality Eco-Friendly Paper, Kraft Paper, Duplex Sheets, Food-Grade Packaging & Sustainable Cardboard Solutions</p>
         </div>
 
         <div className="products-grid grid grid-3">

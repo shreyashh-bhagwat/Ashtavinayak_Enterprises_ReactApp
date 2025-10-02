@@ -52,12 +52,12 @@ export default function About() {
 
         <div className="about-content">
           <div className="about-story">
-            <h3>Ashtavinayak Enterprises – Your Trusted  Paper Suppliers</h3>
+            <h3>Ashtavinayak Enterprises – Your Trusted Paper & Packaging Suppliers in India</h3>
             <p>
-              Founded in 2013 by Mr. Sumit Unsale (Business Development Executive), Ashtavinayak Enterprises has grown into one of India's trusted suppliers of eco-friendly, high-quality paper and cardboard solutions.
+              Founded in 2013 by Mr. Sumit Unsale (Business Development Executive), Ashtavinayak Enterprises has emerged as one of India's leading suppliers of premium eco-friendly paper, cardboard, kraft paper, and sustainable packaging solutions. Based in Kopargaon, Maharashtra, we serve clients across 80+ cities nationwide.
             </p>
             <p>
-              With 11+ years of experience, we are committed to quality, trust, and sustainability. Our journey began with a focus on paper and packaging solutions, and through consistent growth and dedication, we have expanded our operations to serve a wider product portfolio and established a national-level presence with a strong pan-India client network.
+              With 11+ years of industry expertise, we specialize in food-grade paper, duplex sheets, MG paper bags, recycled packaging materials, and custom bulk supplies. Our commitment to quality, sustainability, and 98% on-time delivery has made us the preferred choice for packaging traders, manufacturers, and businesses seeking reliable paper suppliers in India.
             </p>
           </div>
 
