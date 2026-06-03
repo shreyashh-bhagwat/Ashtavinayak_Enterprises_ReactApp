@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -49,7 +50,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container navbar-content">
         <div className="navbar-logo">
-          <h1>Ashtavinayak Enterprises</h1>
+          <img src="/public/logo_nobg.PNG" alt="Ashtavinayak Enterprises" />
         </div>
         
         <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
@@ -100,6 +101,18 @@ export default function Navbar() {
             >
               Contact
             </a>
+          </li>
+          <li>
+            <Link 
+              to="/digital-card"
+              className="digital-card-link"
+              onClick={() => {
+                setIsMenuOpen(false);
+                document.body.style.overflow = 'unset';
+              }}
+            >
+              Digital Card
+            </Link>
           </li>
           <li>
             <button 

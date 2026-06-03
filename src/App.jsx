@@ -1,23 +1,23 @@
 import React from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Products from './components/Products';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
 import WhatsAppWidget from './components/WhatsAppWidget';
+import Home from './pages/Home';
+import DigitalCard from './pages/digital_card';
 import './App.css';
 
 function App() {
+  const location = useLocation();
+  const isDigitalCardPage = location.pathname === '/digital-card';
+
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Products />
-      <About />
-      <Contact />
-      <Footer />
-      <WhatsAppWidget />
+      {!isDigitalCardPage && <Navbar />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/digital-card" element={<DigitalCard />} />
+      </Routes>
+      {!isDigitalCardPage && <WhatsAppWidget />}
     </div>
   );
 }
