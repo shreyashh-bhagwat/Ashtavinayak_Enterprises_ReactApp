@@ -330,18 +330,11 @@ export default function AshtavinayakCard() {
     <span className="ql-label">Gallery</span>
   </a>
 
-  <a href="#bank" className="ql-item">
-    <div
-      className="ql-icon"
-      style={{ background: "#ffe8e8" }}
-    >
-      <Icon.Bank />
-    </div>
-    <span className="ql-label">Bank</span>
-  </a>
+  
 </div>
 
           {/* Save Contact */}
+          
           <div className="save-section">
             <a className="save-btn save-ios" href="#ios">
               <Icon.Apple /> Save to iPhone
@@ -360,4 +353,5 @@ export default function AshtavinayakCard() {
       </div>
     </div>
   );
+  
 }
