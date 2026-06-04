@@ -3,7 +3,7 @@ import "./styles/digital_card.css";
 
 // ── REPLACE with actual logo ──
 // import logoImg from "./ashtavinayak-logo.png";
-const logoImg = "/public/logocircle.png";
+const logoImg = "/images/logocircle.png";
 
 const BUSINESS = {
   name: "Ashtavinayak Enterprises",

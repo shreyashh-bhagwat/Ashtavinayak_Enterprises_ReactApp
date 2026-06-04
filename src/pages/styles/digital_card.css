@@ -553,7 +553,7 @@ body::before {
   }
 
   .card-body {
-    margin: -480px 12px 0;
+    margin: -540px 12px 0;
     border-radius: 24px;
   }
 }
