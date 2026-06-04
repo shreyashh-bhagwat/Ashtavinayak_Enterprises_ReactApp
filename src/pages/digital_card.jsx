@@ -11,19 +11,21 @@ const BUSINESS = {
   category: "Wholesale & Distribution",
   description:
     "One of Maharashtra's most trusted wholesale distributors, delivering quality products with integrity, speed, and excellence.",
+
   phone1: "8698155151",
- 
+
   whatsapp: "8698155151",
   email: "ashtavinayak29@gmail.com",
   website: "https://ashtavinayak.enterprises",
+
   officeAddress:
-    "M.C. No.R-8/885/28, Beside Karwa Avenue, Opp. Nandai Hostel, Seetaram Nagar, Latur – 413 512.",
-  factoryAddress:
-    "Plot No. C-55 & C-61, MIDC, Ausa, Dist. Latur – 413520.",
+    "SERVE NO. 205/3/1 NEAR IRRIGATION BANGLOW, KOPERGAON, Maharashtra, 423601",
+
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30427.70!2d76.5604!3d18.4088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf5b5efa3fffff%3A0x1!2sLatur%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1",
+    "https://maps.google.com/maps?q=SERVE%20NO.%20205/3/1%20NEAR%20IRRIGATION%20BANGLOW%20KOPERGAON%20Maharashtra%20423601&t=&z=15&ie=UTF8&iwloc=&output=embed",
+
   mapDirectionsUrl:
-    "https://maps.google.com/?q=Seetaram+Nagar+Latur+Maharashtra",
+    "https://maps.google.com/?q=SERVE+NO.+205/3/1+NEAR+IRRIGATION+BANGLOW+KOPERGAON+Maharashtra+423601",
 };
 
 /* ══════════════
@@ -253,14 +255,7 @@ export default function AshtavinayakCard() {
               <div className="cr-arrow"><Icon.ChevronRight /></div>
             </a>
 
-            <a className="contact-row" href="https://maps.google.com/?q=MIDC+Ausa+Latur" target="_blank" rel="noreferrer">
-              <div className="cr-icon fac"><Icon.Factory /></div>
-              <div className="cr-text">
-                <div className="cr-label">Factory / Works</div>
-                <div className="cr-value">{BUSINESS.factoryAddress}</div>
-              </div>
-              <div className="cr-arrow"><Icon.ChevronRight /></div>
-            </a>
+          
 
             {/* Google Maps Embed */}
             <div className="map-wrapper">
@@ -284,33 +279,67 @@ export default function AshtavinayakCard() {
           </div>
 
           {/* Quick Links */}
-          <div className="section">
-            <div className="section-head">
-              <span className="section-tag">Quick Links</span>
-            </div>
-            <div className="ql-grid">
-              <a href="#iso" className="ql-item">
-                <div className="ql-icon" style={{ background: "#e8f5ee" }}><Icon.ISO /></div>
-                <span className="ql-label">ISO Cert</span>
-              </a>
-              <a href="#gst" className="ql-item">
-                <div className="ql-icon" style={{ background: "#fff3e8" }}><Icon.GST /></div>
-                <span className="ql-label">GST</span>
-              </a>
-              <a href="#company" className="ql-item">
-                <div className="ql-icon" style={{ background: "#e8f0ff" }}><Icon.Company /></div>
-                <span className="ql-label">Profile</span>
-              </a>
-              <a href="#gallery" className="ql-item">
-                <div className="ql-icon" style={{ background: "#f5e8ff" }}><Icon.Gallery /></div>
-                <span className="ql-label">Gallery</span>
-              </a>
-              <a href="#bank" className="ql-item">
-                <div className="ql-icon" style={{ background: "#ffe8e8" }}><Icon.Bank /></div>
-                <span className="ql-label">Bank</span>
-              </a>
-            </div>
-          </div>
+<div className="ql-grid">
+  <a
+    href="https://drive.google.com/file/d/1ub24RPZgvy_HkcmRCVGZRwpaE2ufGGhP/view?usp=sharing"
+    target="_blank"
+    rel="noreferrer"
+    className="ql-item"
+  >
+    <div
+      className="ql-icon"
+      style={{ background: "#e8f5ee" }}
+    >
+      <Icon.ISO />
+    </div>
+    <span className="ql-label">MSME Cert</span>
+  </a>
+
+  <a
+    href="https://drive.google.com/file/d/1_5uI436Cp_rRs6r0atsyW_gFNvazEfq8/view?usp=sharing"
+    target="_blank"
+    rel="noreferrer"
+    className="ql-item"
+  >
+    <div
+      className="ql-icon"
+      style={{ background: "#fff3e8" }}
+    >
+      <Icon.GST />
+    </div>
+    <span className="ql-label">GST</span>
+  </a>
+
+  <a href="#company" className="ql-item">
+    <div
+      className="ql-icon"
+      style={{ background: "#e8f0ff" }}
+    >
+      <Icon.Company />
+    </div>
+    <span className="ql-label">Profile</span>
+  </a>
+
+  <a href="#gallery" className="ql-item">
+    <div
+      className="ql-icon"
+      style={{ background: "#f5e8ff" }}
+    >
+      <Icon.Gallery />
+    </div>
+    <span className="ql-label">Gallery</span>
+  </a>
+
+  <a href="#bank" className="ql-item">
+    <div
+      className="ql-icon"
+      style={{ background: "#ffe8e8" }}
+    >
+      <Icon.Bank />
+    </div>
+    <span className="ql-label">Bank</span>
+  </a>
+</div>
 
           {/* Save Contact */}
           <div className="save-section">
